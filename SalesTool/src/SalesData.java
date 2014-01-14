@@ -9,4 +9,10 @@ public class SalesData {
 			System.out.println("Next value: " + n);
 		}
 	}
+	
+	public void doubleSales() {
+		for (int i = 0; i<data.length; i++) {
+			data[i] = data[i] * 2;
+		}
+	}
 }

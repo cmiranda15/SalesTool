@@ -6,6 +6,9 @@ public class myMain {
 		displayGreeting();
 		SalesData data = new SalesData();
 		data.display();
+		System.out.println("Doubling sales");
+		data.doubleSales();
+		data.display();
 
 	}
 	
@@ -13,7 +16,6 @@ public class myMain {
 		System.out.println("Hello Happy Sales People!");
 		System.out.println("This app shows sales data.");
 		System.out.println("-------------------------");
-		System.out.println("Now it's different.");
 	}
 
 }
